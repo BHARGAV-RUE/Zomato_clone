@@ -152,18 +152,17 @@ body {
     height: 40rem;
 }
 
-.images-sect{
+.background-img img {
     position: relative;
-    width: 100%;
-    height: 100vh;
-    background:url(images/section2bg.png) no-repeat center/cover;
-    overflow: hidden;
+    top: 0;
+    width: 10rem;
+    height: 25rem;
 }
     
 .text-sect p {}
 
-#text-head {
-    position: absolute;
+#text-head {    
+    /* position: absolute;
     font-size: 3rem;
     font-weight: bolder;
     text-align: center;
@@ -171,12 +170,12 @@ body {
     color: #ef4f5f;
     word-spacing: 5px;
     margin: auto 0 0 1rem;
-    z-index: -1;
+    z-index: -1; */
 }
 
 #text-sub {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem;
     text-align: center;
     font-weight: 100;
-    color:#596378;
+    color:#596378; */
 }
