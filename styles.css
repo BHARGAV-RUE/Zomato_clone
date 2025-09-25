@@ -72,17 +72,17 @@ body {
 }
 
 .playstore img,
-.applestore img{
+.applestore img {
     z-index: 100;
     width: 11rem;
     height: 4rem;
-    border:1px solid white;
+    border: 1px solid white;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
 }
 
 .playstore img:hover,
-.applestore img:hover{
+.applestore img:hover {
     transform: scale(1.1);
 }
 
@@ -109,7 +109,7 @@ body {
 }
 
 /* Section 2 */
-.sect2{
+.sect2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -117,6 +117,8 @@ body {
 
 .background-img {
     position: relative;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -132,7 +134,7 @@ body {
     z-index: -1;
 }
 
-.images-sect img{
+.images-sect img {
     position: absolute;
 }
 
@@ -144,31 +146,128 @@ body {
 }
 
 .pizza {
-    top:160%;
+    top: 160%;
     right: 10%;
     width: 20%;
     height: 40%;
 }
 
-.momos{
+.momos {
     top: 105%;
     right: 10%;
     width: 20%;
     height: 40%;
 }
 
-.leaf{
+.leaf {
     top: 110%;
     left: 30%;
     width: 3%;
     height: 5%;
 }
 
-.tomato{
-    top:190% ;
+.tomato {
+    top: 190%;
     left: 25%;
     width: 3%;
     height: 6%;
+}
+
+/* Section 3 */
+.sect3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(0deg, #ffffff 0%, #ffedef 100%);
+}
+
+.heading p {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ef4f5f;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.sub-head p {
+    font-size: medium;
+    font-weight: 300;
+    color: #596378;
+    text-align: center;
+    margin-top: 0;
+}
+
+.cards {
+    display: flex;
+}
+
+/* Left Side */
+.left-side {
+    display: flex;
+}
+
+.healthy,
+.veg-mode,
+.gift-card,
+.plan-party {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 7rem;
+    height: 7rem;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 4px 4px 10px #dbdfe7;
+
+}
+
+.healthy img,
+.veg-mode img,
+.gift-card img,
+.plan-party img {
+    width: 70%;
+    height: 70%;
+}
+
+.healthy p,
+.veg-mode p,
+.gift-card p,
+.plan-party p {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Middle Part */
+.middle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.middle img {
+    width: 60%;
+    height: 60%;
+}
+
+.schedule {
+    position: absolute;
+}
+
+.schedule img {
+    width: 10%;
+    height: 10%;
+}
+
+.schedule p{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    text-align: center;
 }
 
 /* Footor */
@@ -180,9 +279,10 @@ footer {
     background: black;
 }
 
-.fot-heading{
+.fot-heading {
     display: flex;
     justify-content: center;
+    align-items: end;
 
 }
 
@@ -192,17 +292,15 @@ footer {
     flex-direction: row;
     gap: 2rem;
     margin: 15rem 1rem 0 0rem;
-    
+
 }
 
-h2{
-    color: white;
-}
+h2,
 p {
     color: white;
 }
 
-.links img{
+.links img {
     border: 1px solid white;
     border-radius: 50%;
     width: 1.5rem;
@@ -213,12 +311,12 @@ hr {
     width: 60%;
 }
 
-.info{
+.info {
     display: flex;
     justify-content: center;
 }
 
-.info p{
+.info p {
     text-align: start;
     font-size: 10.8px;
 }
